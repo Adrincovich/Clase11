@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <script src="./JS/scripts.js"></script>
+    <title>Parcial</title>
+</head>
+<body>
+    <header>
+        <img class="image-header" src="./images/background.jpg" alt="banner">
+    </header>
+    <nav>
+        <ul class="nav-list">
+            <li class="nav-menu"><img src="./images/hamburguesa.svg"></li>
+            <li class="nav-flex"><a href="index.html">Inicio</a></li>
+            <li class="nav-flex">HTML</li>
+            <li class="nav-flex">CSS</li>
+            <li class="nav-flex">JavaScript</li>
+            <li class="nav-flex">Novedades</li>
+            <li class="nav-flex nav-suscribe">Suscribite</li>
+            <li class="nav-fecha">Jueves 09 de Junio</li>
+        </ul>
+    </nav>
+    <main class="column">
+        <form id="form" class="column-1 formulario">
+            <fieldset class="fieldset">
+                <label for="name">Nombre</label>
+                <input id="name" class="formulario-clase" type="text" name="name">
+                <p></p>
+            </fieldset>
+            <fieldset class="fieldset">
+                <label for="surname">Apellido</label>
+                <input id="surname" class="formulario-clase" type="text" name="surname">
+                <p></p>
+            </fieldset>
+            <fieldset class="fieldset">
+                <label for="email">Email</label>
+                <input id="email" class="formulario-clase" type="text" name="email">
+                <p></p>
+            </fieldset>
+            <fieldset class="fieldset">
+                <label for="edad">Edad</label>
+                <input id="edad" class="formulario-clase" type="number" name="edad">
+                <p></p>
+            </fieldset>
+            <fieldset class="fieldset2" id ="FielsetSexo">
+                <label id="sexo">Sexo</label>
+                <label class="formulario-label"  for="sexo1">Masculino</label>
+                <input id="sexo1" class="formulario-sexo" type="radio" name="sexo">
+                <label class="formulario-label"  for="sexo2">Femenino</label>
+                <input id="sexo2" class="formulario-sexo" type="radio" name="sexo">
+                <label class="formulario-label"  for="sexo3">Otro</label>
+                <input id="sexo3" class="formulario-sexo" type="radio" name="sexo">
+                <p id="errorSexo"></p>
+            </fieldset>
+            <fieldset class="fieldset2" id ="FielsetTemas">
+                <label id="interes">Temas de Interes</label>
+                <label class="formulario-label" for="interes1">Deporte</label>
+                <input id="interes1" class="formulario-interes" type="checkbox" name="interes1">
+                <label class="formulario-label" for="interes2">Musica</label>
+                <input id="interes2" class="formulario-interes" type="checkbox" name="interes2">
+                <label class="formulario-label" for="interes3">Juegos</label>
+                <input id="interes3" class="formulario-interes" type="checkbox" name="interes3">
+                <label class="formulario-label" for="interes4">Tecnologia</label>
+                <input id="interes4" class="formulario-interes" type="checkbox" name="interes4">
+                <label class="formulario-label" for="interes5">Otros</label>
+                <input id="interes5" class="formulario-interes" type="checkbox" name="interes5">
+                <p id="errorInteres"></p>
+            </fieldset>
+            <fieldset class="fieldset">
+                <label class="formulario-pais" for="pais">Pais</label>
+                <select class="formulario-pais" name="pais" id="pais">
+                    <option value="Seleccionar">Seleccionar...</option>
+                    <option value="Argentina">Argentina</option>
+                    <option value="Chile">Chile</option>
+                    <option value="Brasil">Brasil</option>
+                    <option value="Uruguay">Uruguay</option>
+                </select>
+                <p id="errorPais"></p>
+            </fieldset>
+            <fieldset class="fieldset">
+                <label for="direccion">Comentario</label>
+                <textarea class="formulario-clase" name="comentario" rows="5" cols="50"></textarea>
+                <p></p>
+            </fieldset>
+            <fieldset class="fieldset">
+                <input id="submit" class="enviar-form btn btn-primary" type="submit" value="Enviar">
+            </fieldset>
+        </form>
+    </main>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2>MODAL</h2>
+            </div>
+            <div class="modal-body">
+                <p>El Registro finalizo Correctamente!</p>
+            </div>
+            <div class="modal-footer">
+                <h3>Muchas gracias</h3>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="copyright">Copyright 2022 Primer Parcial UAI LPPA | Todos los derechos reservados</div>
+        <div class="creator"></div>
+    </footer>
+</body>
+</html>
