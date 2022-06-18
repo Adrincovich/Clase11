@@ -1,2 +1,2 @@
 **Pimer parcial**
->https://adrincovich.github.io/primer-parcial
+>https://adrincovich.github.io/Clase11/
